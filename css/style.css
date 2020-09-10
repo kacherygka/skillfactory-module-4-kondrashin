@@ -27,6 +27,8 @@ body {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 400;
+	max-width: 1249px;
+	margin: 0 auto;
 }
 
 header {
@@ -68,12 +70,14 @@ main {
 	display: flex;
 	justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
 }
 
 .our-strong {
 	display: flex;
 	max-width: 610px;
 	flex-wrap: wrap;
+	
 }
 
 .head1 {
@@ -116,16 +120,56 @@ main {
 	display: flex;
 	max-width: 550px;
 	max-height: 460px;
+	margin: 0 auto;
 }
 
 .main2 {
 	display: flex;
+	justify-content: space-between;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	max-width: 540px;
 }
 
 .head2 {
 	text-transform: uppercase;
-	font-size: 40px;
-	font-family: 'Open Sans';
+	font-family: Open Sans;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: bold;
+	font-size: 42.1902px;
+	line-height: 55px;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+}
+
+.container2 {
+	display: flex;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	max-width: 320px;
+}
+
+h2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24.0692px;
+	line-height: 0px;
+}
+
+.card-text {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
 }
