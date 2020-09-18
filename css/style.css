@@ -281,6 +281,7 @@ h2 {
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 24px;	
+	margin-bottom: 46px;
 }
 
 .link2:hover {
@@ -294,3 +295,54 @@ h2 {
 	margin: 0 auto;
 }
 
+img {
+	max-width: 299px;
+	margin-bottom: 18px;
+}
+
+.team {
+	display: flex;
+	max-width: 1249px;
+	justify-content: flex-start;
+	margin: 0 auto;
+	margin-top: 90px;
+	flex-direction: column;
+}
+
+.team-text {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+	max-width: 479px;
+}
+
+.container3 {
+	display: flex;
+}
+
+.man {
+	width: 321px;
+    height: 458px;
+    margin-right: 65px;
+    background-color: #eb6d4a8f;
+}
+
+.mark {
+	text-transform: uppercase;
+}
+
+.team-text2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+	max-width: 663px;
+	margin-top: 30px;
+}
+
+.team-ul {
+	
+}
