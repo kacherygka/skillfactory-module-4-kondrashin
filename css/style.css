@@ -657,13 +657,16 @@ footer {
 	.main2 {
 		flex-direction: column;
 		justify-content: center;
-		margin: 0 auto;
+		margin-left: 10px;
 	}
 	.container1 {
 		max-width: none;
 	}
 	.cards {
 		flex-direction: row;
+	}
+	main, .team, .container1, .product, .design, .get, .footer-flex {
+		margin-left: 20px;
 	}
 }
 
